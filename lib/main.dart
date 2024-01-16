@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:netflix/presentation/mainpage/screen_main.dart';
+import 'package:netflix/screens/auth/login_page.dart';
 
 import 'core/colors/colors.dart';
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
           bodyLarge: TextStyle(color: Colors.white),
           bodyMedium: TextStyle(color: Colors.white),
         ),),
-      home:  ScreenMain(),
+      home: const LoginPage(),
     );
   }
 }
