@@ -17,5 +17,5 @@ const kMainImage =
 
 //TextStyle
 TextStyle kHomeTitleText =
-    const TextStyle(fontSize: 14, fontWeight: FontWeight.bold);
+    const TextStyle(fontSize: 13, fontWeight: FontWeight.w700);
 

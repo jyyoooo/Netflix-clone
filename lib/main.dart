@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:netflix/presentation/mainpage/screen_main.dart';
-import 'package:netflix/screens/auth/login_page.dart';
+import 'package:netflix/core/constants/colors.dart';
+import 'package:netflix/view/auth/login_page.dart';
 
-import 'core/colors/colors.dart';
+
 
 void main() {
   runApp(const MyApp());
